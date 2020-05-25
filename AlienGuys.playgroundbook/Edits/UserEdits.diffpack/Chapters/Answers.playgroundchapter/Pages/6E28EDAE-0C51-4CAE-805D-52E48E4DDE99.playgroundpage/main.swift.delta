@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BaseFile</key>
+	<string>Chapters/Answers.playgroundchapter/Pages/Template.playgroundpage/main.swift</string>
+	<key>Diffs</key>
+	<array>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>var score=0
+show("ALIEN GUYS QUIZ")
+show("What is your name?")
+let name = ask("Name")
+show("Hi " + name)
+
+show(name + " let's start the Quiz!!")
+
+show("")
+//first
+show("First Known UFO sighting?")
+let first = askForChoice("Year", options: ["1947", "1968", "1932"])
+if(first=="1947"){
+    show("Correct Answer")
+    show("In 1947,Businessman Kenneth Arnold claimed to see a group of nine high-speed objects near Mount Rainier in Washington while flying his small plane.")
+    score+=1
+}
+else{
+    show("Wrong Answer")
+}
+show("")
+//second
+show("How many reports of sightings does project Blue Book have?")
+let second = askForChoice("Value", options: ["10788","12618","6789"])
+if(second=="12618"){
+    show("Correct Answer")
+    show("Project Blue Book collected this reports by the time it ended ")
+    score+=1
+}
+else{
+    show("Wrong Answer")
+}
+show("")
+//third
+show("In what year did the famous Roswell incident take place?")
+let third = askForChoice("Year", options: ["1972","1942","1947"])
+if(third=="1947"){
+    show("Correct Answer")
+    score+=1
+}
+else{
+    show("Wrong Answer")
+}
+show("")
+//fourth
+show("How many reports of sightings does project Blue Book have?")
+let fourth = askForChoice("Value", options: ["10000","100","1000"])
+if(fourth=="10000"){
+    show("Correct Answer")
+    score+=1
+}
+else{
+    show("Wrong Answer")
+}
+show("")
+//fifth
+show("On famous theory about aliens suggest that they taught humans about technology thousands of years ago.What is the name of this theory?")
+let fifth = askForChoice("Answer", options: ["Ancient Astronaut Theory","Extraterrestrial Education Theory","Project Antiquity"])
+if(fifth=="Ancient Astronaut Theory"){
+    show("Correct Answer")
+    score+=1
+}
+else{
+    show("Wrong Answer")
+}
+show("")
+//sixth
+show("Study of UFOs?")
+let sixth = askForChoice("Answer", options: ["UFO Studies","Ufology","Etymology"])
+if(sixth=="Ufology"){
+    show("Correct Answer")
+    score+=1
+}
+else{
+    show("Wrong Answer")
+}
+show("")
+//seventh
+show("What secret base is said to house alien space craft and alien bodies?")
+let seventh = askForChoice("Answer", options: ["Johnson Space Center","Wright's field","Area 51"])
+if(seventh=="Area 51"){
+    show("Correct Answer")
+    score+=1
+}
+else{
+    show("Wrong Answer")
+}
+show("")
+//eigth
+show("Which planet's moon is believed to be most likely spot to find Aliens?")
+let eigth = askForChoice("Answer", options: ["Earth","Saturn","Mars"])
+if(eigth=="Saturn"){
+    show("Correct Answer")
+    score+=1
+    show("Saturn's Enceladus and Titan")
+}
+else{
+    show("Wrong Answer")
+}
+show("")
+//ninth
+show("On July 2,1947 a UFO supposedly crashed close to this U.S. city?")
+let ninth = askForChoice("Answer", options: ["Reno","Ronald","Rosewell"])
+if(ninth=="Rosewell"){
+    show("Correct Answer")
+    score+=1
+}
+else{
+    show("Wrong Answer")
+}
+show("")
+//tenth
+show("The name given to the object sighted by military pilots during the Second World War?")
+let tenth = askForChoice("Answer", options: ["Foo fighters","Unknowns","Bogeys"])
+if(tenth=="Foo fighters"){
+    show("Correct Answer")
+    score+=1
+    show("The term emerged in popular culture during 1930s")
+}
+else{
+    show("Wrong Answer")
+}
+show("")
+//eleventh
+show("What Explanation was given for the Sao Paulo,Brazil sightings in 1986?")
+let eleventh = askForChoice("Answer", options: ["Solar Flares","Space Debris","Military Exercises"])
+if(eleventh=="Space Debris"){
+    show("Correct Answer")
+    score+=1
+}
+else{
+    show("Wrong Answer")
+}
+show("")
+//twelveth
+show("What does UFO stands for?")
+let twelveth = askForChoice("Answer", options: ["Unidentified Forged Object","Unidentified Friendly Object","Unidentified Flying Object"])
+if(twelveth=="Unidentified Flying Object"){
+    show("Correct Answer")
+    score+=1
+}
+else{
+    show("Wrong Answer")
+}
+show("")
+//thirteen
+show("The term 'flying saucer' is credited to whom?")
+let thirteen = askForChoice("Answer", options: ["Kenneth Arnold","Xavier Zimbagraj","Mark Martin"])
+if(thirteen=="Kenneth Arnold"){
+    show("Correct Answer")
+    score+=1
+}
+else{
+    show("Wrong Answer")
+}
+show("")
+//fourteen
+show("At $1 per year, Alien Abduction Insurance is a real policy you can purchase.TRUE or FALSE?")
+let fourteen = askForChoice("Answer", options: ["TRUE","FALSE"])
+if(fourteen=="TRUE"){
+    show("Correct Answer")
+    score+=1
+    show("Nichie Insurance,the first company to offer UFO abduction insurance was through St.Lawrence Agency in Altamonte Springs,Florida.")
+}
+else{
+    show("Wrong Answer")
+}
+show("")
+//fifteen
+show("Which is the name of a society that believes in UFOs as a religion?")
+let fifteen = askForChoice("Answer", options: ["UFWorshipers","Aetherius Society","UFBelievers"])
+if(fifteen=="Aetherius Society"){
+    show("Correct Answer")
+    score+=1
+}
+else{
+    show("Wrong Answer")
+}
+
+show("")
+show("SCORE : ")
+show(score)
+
+if(score==15){
+    show("You really know a bit about Aliens " + name)
+}
+else if(score&gt;=10 &amp;&amp; score&lt;15){
+    show("You did well " + name)
+}
+else{
+    show("You need to improve " + name)
+}
+show("")
+show("Thank You! - for taking the AlienGuys Quiz")
+show("This is my submission for the WWDC'20-Swift Student Challenege")
+</string>
+			<key>ModifiedRange</key>
+			<string>{229, 5156}</string>
+			<key>OriginalContent</key>
+			<string></string>
+			<key>OriginalRange</key>
+			<string>{229, 0}</string>
+		</dict>
+	</array>
+	<key>FormatVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

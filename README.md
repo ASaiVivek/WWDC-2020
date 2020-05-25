@@ -1,7 +1,7 @@
 # WWDC-2020-Alien-Guys-Quiz
-This is my first attempt in trying swift code and submitting a quiz made using swift playgrounds.
+This is my first attempt in trying swift code and submitting a quiz made using swift playgrounds.I used answers module for making it.
 
--Here are few Screenshots:
+-Here are the Screenshots:
 
 ![screenshot1](/Screenshots/SS_1.png)
 
